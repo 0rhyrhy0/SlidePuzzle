@@ -1,1 +1,1 @@
-"# SlidePuzzle" 
+# SlidePuzzle
