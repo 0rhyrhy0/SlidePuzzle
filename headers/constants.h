@@ -1,7 +1,7 @@
 #ifndef __CONSTANTS_H__
 #define __CONSTANTS_H__
 
-#define SIZE 10
+#define SIZE 4
 #define SHUFFLE_COUNT 1000
 
 /* ÀÔ·Â °ª enum */
