@@ -8,7 +8,7 @@ int main()
     int moveCount = 0;
     initializeBoard(board);
 
-    // ·£´ıÀ¸·Î ¼¯±â
+    // ëœë¤ìœ¼ë¡œ ì„ê¸°
     for(int i=0 ; i<SHUFFLE_COUNT ; i++) move(board, -1);
 
     printBoard(board);

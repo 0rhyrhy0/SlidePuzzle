@@ -1,7 +1,7 @@
 #ifndef __TERMINALSUPPORT_H__
 #define __TERMINALSUPPORT_H__
 
-/** ем╧лЁню╩ ╨Я©С╢о╢ы. */
+/** М└╟К╞╦К└░Л²└ К╧└Л⌡│К▀┬К▀╓. */
 void clearTerminal();
 
 #endif

@@ -4,7 +4,7 @@
 #define SIZE 4
 #define SHUFFLE_COUNT 1000
 
-/* ÀÔ·Â °ª enum */
+/* ìž…ë ¥ ê°’ enum */
 enum Input {
     SPECIAL = 224,
 
@@ -12,10 +12,10 @@ enum Input {
     RIGHT = 77, DOWN = 80,
 };
 
-/* Ãâ·Â °ª enum */
+/* ì¶œë ¥ ê°’ enum */
 enum Output {
     UP_1P, LEFT_1P, DOWN_1P, RIGHT_1P, // wasd
-    UP_2P, LEFT_2P, DOWN_2P, RIGHT_2P, // ¹æÇâÅ°
+    UP_2P, LEFT_2P, DOWN_2P, RIGHT_2P, // ë°©í–¥í‚¤
     QUIT, RESTART, UNDO, REDO
 };
 

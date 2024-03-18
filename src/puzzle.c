@@ -29,7 +29,7 @@ void printBoard(int board[SIZE][SIZE]) {
 int isSolved(int board[SIZE][SIZE]) {
     for(int i=0 ; i<SIZE ; i++)
         for(int j=0 ; j<SIZE ; j++) {
-            // ¸¶Áö¸· Ä­Àº 0ÀÌ¾î¾ß ÇÔ
+            // ë§ˆì§€ë§‰ ì¹¸ì€ 0ì´ì–´ì•¼ í•¨
             if(i == SIZE-1 && j == SIZE-1 && board[i][j] == 0) return 1;
             else if(board[i][j] != SIZE*i + j + 1) return 0;
         }
@@ -50,7 +50,7 @@ int move(int board[SIZE][SIZE], int direction) {
         }
     }
 
-    // 0, 1, 2, 3¿¡ ´ëÇØ ºóÄ­À» w, a, s, d ¹æÇâÀ¸·Î ÀÌµ¿
+    // 0, 1, 2, 3ì— ëŒ€í•´ ë¹ˆì¹¸ì„ w, a, s, d ë°©í–¥ìœ¼ë¡œ ì´ë™
     int dx[] = {-1, 0, 1, 0};
     int dy[] = {0, -1, 0, 1};
 
