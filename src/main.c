@@ -19,12 +19,13 @@ int main()
         if(command <= 7 && move(board, command % 4)) moveCount++;
 
         printBoard(board);
-
         if(isSolved(board)) {
             puts("Congratulations!");
             printf("Total moves: %d\n", moveCount);
             break;
         }
+
+        printf("Moves : %d\n", moveCount);
 
         if(command == QUIT) {
             puts("Quit the game.");
